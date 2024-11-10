@@ -1,0 +1,10 @@
+{% extends "baseLetter.html" %}
+{% block content %}
+    <div>
+        Заказ: {{ data["orderId"] }}
+        <br>
+        Сумма: {{ data["amount"] }}
+        <br>
+        Ссылка: {{ data["url"] }}
+    </div>
+{% endblock %}

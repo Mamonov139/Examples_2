@@ -1,0 +1,88 @@
+postgres:
+  username:
+  password:
+  host:
+  port:
+flask:
+  port:
+  host:
+  debug:
+  protocol:
+  secret:
+  cert:
+  key:
+domain:
+  url:
+  payment_url:
+smtp_client:
+  HOST:
+  PORT:
+  FROM:
+  username:
+  password:
+smtp_acquiring_client:
+  username:
+  password:
+  imap:
+  app_token:
+  folder:
+    sber:
+    mandarin:
+    yookassa:
+smtp_secret_key:
+  token_key:
+redis:
+  host:
+  port:
+  db:
+  password: 
+logs:
+  path:
+temp:
+  path:
+yookassa:
+  acquiring_account:
+  merchants:
+    domeo_marketing:
+      shop_id:
+      secret_key:
+telegram_bot_trans:
+  token:
+  base_notify_address:
+users:
+  - 1
+  - 2
+  - 3
+manual_franchise:
+  0: 0
+ecosystem_address:
+  estimate_bot:
+  estimate_bot_curator:
+  load_service_address:
+  estimate_address:
+  token:
+cache:
+base_path : \payments\MainApp\static\cache
+base_uri : \static\cache
+life_pay_mto:
+    domeo_marketing:
+      auth_credentials:
+        login:
+        apikey:
+      phone:
+      name:
+      address:
+      inn:
+      target_serial:
+    repair_technology:
+      auth_credentials:
+        login:
+        apikey:
+      phone:
+      name:
+      address:
+      inn:
+      target_serial:
+life_pay_urls:
+  sapi: https/sapi.life-pay.ru/cloud-print/
+  api: https://api.life-pay.ru/v1/
